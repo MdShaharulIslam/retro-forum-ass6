@@ -19,7 +19,8 @@
 </head>
 
 <body class="mulish m-4">
-    <!-- navbar start -->
+    <header class="sm:mx-2 lg:mx-10">
+        <!-- navbar start -->
     <div class="navbar bg-base-100   ">
         <div class="navbar-start">
             <div class="dropdown">
@@ -120,154 +121,85 @@
 
         </div>
     </div>
-    <!-- navber End -->
-    <section class="  m-4 pt-4 ">
-        <div class=" rounded-lg">
-            <div class="hero min-h-screen"
-                style="background: linear-gradient(to top, #FFFFFF0D, #12132D), url(./images/bgbanner.png);background-repeat: no-repeat; ">
-                <div class="flex flex-col lg:flex-row gap-3">
-                    <div class="hero-content ">
-                        <div class="">
-                            <h1 class="mb-5 text-5xl font-black text-white mulish">Welcome to the <span
-                                    class="text-[#797DFC]">ReTro</span> Forum</h1>
-                            <p class="mb-5 text-white">Share your favorite opinion and win and wp forum coffee mug!</p>
-                            <div class="relative">
-                                <!-- Search Input -->
-                                <input type="text"
-                                    class="p-2 pl-8 pr-2 py-4 px-4 border border-gray-300 rounded-md focus:outline-none w-full"
-                                    placeholder="Search...">
+    </header>
 
-                                <!-- Search Button -->
-                                <button class="absolute inset-y-2 right-4 p-2 bg-blue-500 text-white rounded-lg">
-                                    Search
-                                </button>
+    <main>
+        <!-- banner section start cheek -->
+        <section class="sm:mx-2 lg:mx-10">
+            <div class="items-center  mt-14  ">
+                <div style="background-image: url(images/bgbanner.png)"
+                    class="card bg-[#12132D] grid lg:grid-cols-2 sm:grid-cols-1 bg-no-repeat bg-cover items-center">
+                    <div class="lg:card-body pl-5 lg:pl-16">
+                        <h2 class="card-title mt-4 text-4xl font-bold text-white"> Welcome to the</h2>
+                        <h2 class="card-title text-4xl font-bold text-white"><span class="text-indigo-600">ReTro</span>
+                            <span>Forum</span>
+                        </h2>
+                        <p class="mt-6 text-xl text-slate-300">Share your favorite opinion and win and wp forum
+                            coffee mug</p>
+                        <div class="w-96 rounded-3xl h-44">
+                            <div class="input mt-10 rounded-3xl lg:w-[350px] w-72 flex items-center gap-2">
+                                <input id="input-text-value" type="text" class="grow" placeholder="Search" />
+                                <button onclick="handelSearch()" class="bg-[#797DFC] h-10 lg:w-20 rounded-2xl ">Search</button>
                             </div>
                         </div>
                     </div>
-                    <div class="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100 p-4 gap-y-10">
-                        <div class="flex justify-between ">
-                            <p class="font-medium">Registered Users</p>
-                            <p class="font-medium">01</p>
-                        </div>
-                        <div class="flex justify-between ">
-                            <p class="font-medium">Forum</p>
-                            <p class="font-medium">05</p>
-                        </div>
-                        <div class="flex justify-between ">
-                            <p class="font-medium">Topics</p>
-                            <p class="font-medium">01</p>
-                        </div>
-                        <div class="flex justify-between ">
-                            <p class="font-medium">Replies</p>
-                            <p class="font-medium">01</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
-
-
-
-    </section>
-    <!-- navber section end -->
-    <!-- Let’s Discuss section start -->
-
-    <section class="m-4 pt-8">
-        <div class="flex flex-col justify-center items-center">
-            <h1 class="mulish font-black text-4xl text-center">Let’s Discuss</h1>
-            <p class="w-96 text-center flex  justify-center  text-[#12132D99] ">Yes, you can run unit tests and view the
-                results directly
-                within the app. The integrated testing features allow for a streamlined . </p>
-        </div>
-        <div class="flex flex-col lg:flex-row gap-8 p-4  items-start justify-center">
-            <div class="flex flex-col">
-                <div class="p-4 mt-4 bg-[#797DFC1A] rounded-md shadow-2xl flex flex-col w-3/4 ">
-                    <div class="pt-4 flex gap-5 ">
-                        <div class="w-20 h-20 bg-white indicator">
-                            <span class="indicator-item badge bg-green-500 rounded-full"></span>
-                        </div>
+                    <div
+                        class="sm:ml-10 md:mr-10 lg:ml-60 w-80 h-60 items-center  mt-0 top-5  bg-white text-blue-950 p-8 rounded-3xl lg:m-0 mx-5 my-20">
                         <div class="">
-                            <div class="flex gap-6">
-                                <p># Music</p>
-                                <p>Author : Awlad Chowdhury </p>
+                            <div class="flex  justify-between mb-2">
+                                <h3 class="text2xl">Registered Users</h3>
+                                <h3 class="text-xl">01</h3>
                             </div>
-                            <h3 class="mulish font-black text-xl pt-1">10 Kids Unaware of Their Halloween Costume</h3>
-                            <p class="text-[#12132D99] pt-1 ">It’s one thing to subject yourself to ha Halloween costume
-                                mishap
-                                because, hey that’s your prerogative</p>
-                            <hr class="border-[#12132D99] border-dotted ">
-                            <div class="flex justify-between">
-                                <div class="flex gap-4 items-center">
-                                    <i class="fa-regular fa-comment text-xs "> </i>
-                                    <p class="text-[#12132D99]">560</p>
-                                    <i class="fa-regular fa-eye"></i>
-                                    <p class="text-[#12132D99]">1568</p>
-                                    <i class="fa-regular fa-clock"></i>
-                                    <p class="text-[#12132D99]">5 min</p>
-                                </div>
-
-                                <div class="group inline-block relative">
-                                    <button class="p-2 btn-circle bg-[#10B981] text-white" aria-label="Flag">
-                                        <i class="fa-regular fa-envelope"></i>
-                                    </button>
-
-                                </div>
+                            <div class="flex  justify-between mb-2">
+                                <h3 class="text2xl">Forum</h3>
+                                <h3 class="text-xl">05</h3>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="p-4 mt-4 bg-[#F3F3F5] rounded-md shadow-2xl flex flex-col w-3/4 ">
-                    <div class="pt-4 flex gap-5 ">
-                        <div class="w-20 h-20 bg-white indicator">
-                            <span class="indicator-item badge bg-green-500 rounded-full"></span>
-                        </div>
-                        <div class="">
-                            <div class="flex gap-6">
-                                <p># Coding</p>
-                                <p>Author : Safia Chowdhury </p>
+                            <div class="flex  justify-between mb-2">
+                                <h3 class="text2xl">Topics</h3>
+                                <h3 class="text-xl">01</h3>
                             </div>
-                            <h3 class="mulish font-black text-xl pt-1">10 Kids Unaware of Their Halloween Costume</h3>
-                            <p class="text-[#12132D99] pt-1 ">It’s one thing to subject yourself to ha Halloween costume
-                                mishap
-                                because, hey that’s your prerogative</p>
-                            <hr class="border-[#12132D99] border-dotted ">
-                            <div class="flex justify-between">
-                                <div class="flex gap-4 items-center">
-                                    <i class="fa-regular fa-comment text-xs "> </i>
-                                    <p class="text-[#12132D99]">560</p>
-                                    <i class="fa-regular fa-eye"></i>
-                                    <p class="text-[#12132D99]">1568</p>
-                                    <i class="fa-regular fa-clock"></i>
-                                    <p class="text-[#12132D99]">5 min</p>
-                                </div>
-
-                                <div class="group inline-block relative ">
-                                    <button class="p-2 btn-circle bg-[#10B981] text-white" aria-label="Flag">
-                                        <i class="fa-regular fa-envelope"></i>
-                                    </button>
-
-                                </div>
+                            <div class="flex  justify-between mb-2">
+                                <h3 class="text2xl">Replies</h3>
+                                <h3 class="text-xl">01</h3>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="p-4 mt-4 bg-[#797DFC1A] rounded-md shadow-2xl flex flex-col w-1/2 lg:w-1/3 ">
-                <div class="flex justify-between items-center">
-                    <div>
-                        <h2 class="mulish font-black text-xl pt-1">Title</h2>
+        </section>
+<!-- banner section end -->
+        <!-- Let’s Discuss section start -->
+        <section class="sm:mx-2 lg:mx-10">
+            <div class="text-center ">
+                <h1 class="text-[#12132D] mulish font-bold text-4xl mt-20">Let’s Discuss</h1>
+                <p class="text-slate-500 mt-10">Yes, you can run unit tests and view the results directly within the
+                    app. <br> The integrated testing features allow for a streamlined .</p>
+            </div>
+            <div id="loadind-spinner" class="text-center my-3 hidden">
+                <span class="loading loading-spinner loading-lg"></span>
+            </div>
+            <div >
+                <div id="" class="flex lg:flex-row md:flex-col flex-col gap-4 mt-10 ">
+                    <div id="containt-details" class="sm:w-auto lg:w-[70%] ">
                     </div>
-                    <div class="flex gap-4"><i class="fa-solid fa-check-double"></i>
-                        <p>Mark as read</p>(<span></span>)
+                    <div class="sm:w-auto lg:w-[30%]">
+                        <div class="bg-[#F3F3F5] p-5 rounded-2xl">
+                            <div class="flex justify-between ">
+                                <h3 class="mulish font-semibold text-1xl">Title</h3>
+                                <div class="flex">
+                                    <img src="image/Frame0007.svg" alt="">
+                                    <p>Mark as read <span id="read-count">(0)</span></p>
+                                </div>
+                            </div>
+                            <div id="inner-heading" class="">
+                            </div>
+                        </div>
                     </div>
-
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- Join section -->
+        </section>
+<!-- Let’s Discuss section start End-->
+       <!-- Join section start-->
     <section class="m-4 pt-8">
         <div class="hero  bg-[#12132D] rounded-md">
             <div class="hero-content flex-col lg:flex-row gap-x-52">
@@ -281,87 +213,40 @@
             </div>
         </div>
     </section>
-    <!-- join furom end -->
-    <!-- post section start -->
-    <section class="m-4 pt-8">
-        <div class="flex flex-col justify-center items-center">
-            <h1 class="mulish font-black text-4xl text-center">Latest Posts</h1>
-            <p class="w-96 text-center flex  justify-center text-[#12132D99] ">Yes, you can run unit tests and view the
-                results directly within the app. The integrated testing features allow for a streamlined . </p>
-        </div>
-        <!-- card parent div -->
-        <div class="mt-4 flex flex-col lg:flex-row gap-3">
-            <div class="card w-96 bg-base-100 shadow-xl p-4 ">
-                <figure><img src="" alt="#" /></figure>
-                <div class="card-body">
-                    <div class="flex gap-6 items-center"><i class="fa-regular fa-calendar-days"></i>
-                        <p class="text-[#12132D99] ">29 January 2024</p>
-                    </div>
-                    <h3 class="mulish font-black text-lg ">What will a mars habitat force that impact in our daily
-                        life!!!</h3>
-                    <p class="text-[#12132D99] ">Yes, you can run unit tests and view the results directly within the
-                        app. </p>
-                </div>
-                <div>
+    <!-- lets join section end -->
+    <!-- join Furom end -->
+        <!-- Latest Posts start -->
+        <section class="sm:mx-2 lg:mx-10">
 
-                </div>
+            <div class="text-center">
+                <h2 class="text-4xl font-bold mulish">Latest Posts</h2>
+                <p class="text-slate-500">Yes, you can run unit tests and view the results directly within the app. The
+                    integrated testing <br> features allow for a streamlined .</p>
             </div>
-            <div class="card w-96 bg-base-100 shadow-xl p-4 ">
-                <figure><img src="" alt="#" /></figure>
-                <div class="card-body">
-                    <div class="flex gap-6 items-center"><i class="fa-regular fa-calendar-days"></i>
-                        <p class="text-[#12132D99] ">29 January 2024</p>
-                    </div>
-                    <h3 class="mulish font-black text-lg ">What will a mars habitat force that impact in our daily
-                        life!!!</h3>
-                    <p class="text-[#12132D99] ">Yes, you can run unit tests and view the results directly within the
-                        app. </p>
-                </div>
-                <div>
-
-                </div>
+            <div id="new-post-container" class="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
             </div>
-            <div class="card w-96 bg-base-100 shadow-xl p-4 ">
-                <figure><img src="" alt="#" /></figure>
-                <div class="card-body">
-                    <div class="flex gap-6 items-center"><i class="fa-regular fa-calendar-days"></i>
-                        <p class="text-[#12132D99] ">29 January 2024</p>
-                    </div>
-                    <h3 class="mulish font-black text-lg ">What will a mars habitat force that impact in our daily
-                        life!!!</h3>
-                    <p class="text-[#12132D99] ">Yes, you can run unit tests and view the results directly within the
-                        app. </p>
-                </div>
-                <div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-
-<!-- footer start -->
-<footer class="footer footer-center p-10 bg-base-200 text-base-content rounded">
+        </section>
+    </main>
+    <!-- footer start -->
+<footer class="footer footer-center p-10 mt-8 bg-base-200 text-base-content rounded">
     <nav class="grid grid-flow-col gap-4">
       <img src="./images/logo.png" alt="">
-     
-    </nav>  <p class="w-96 text-center flex  justify-center text-[#12132D99] ">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC</p>
+    </nav>  <p class="w-96 text-center flex  justify-center text-[#12132D99] ">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 </p>
     <nav>
       <div class="grid grid-flow-col gap-4">
         <i class="fa-brands fa-facebook text-4xl"></i>
         <i class="fa-brands fa-twitter text-4xl"></i>
         <i class="fa-brands fa-instagram text-4xl"></i>
         <i class="fa-brands fa-github text-4xl"></i>
-       
       </div>
-    </nav> 
+    </nav>
+    <hr class="w-full border-black border-dotted">
     <aside>
       <p class="text-[#12132D99]">2017, All Rights Reserved.</p>
     </aside>
   </footer>
-
-
-
-
+    <script src="./styles/index.js"></script>
+<!-- all done finally complete -->
 </body>
 
 </html>
